@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: Overpass-variant;
+    src: url(font/Overpass-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: OverPass-italic;
+    src: url(font/Overpass-Italic-VariableFont_wght.ttf);
+}
+:root{
+    --color-boton: hsl(25, 97%, 53%);
+    --color-font-title: hsl(0, 0%, 100%);
+    --color-active: hsl(217, 12%, 63%);
+    --color-font-text: hsl(216, 12%, 54%);
+    --color-background-card: #252d37;
+    --color-background: #121417;
+    --color-background-color-1: rgb(18,20,23);
+    --color-gradient: linear-gradient(10deg, rgba(18,20,23,1) 0%, rgba(37,45,55,1) 100%);
+}
+body{
+    background: var(--color-background);
+}
+.card_ask{
+    display: flex;
+    width: 350px;
+    height: 380px;
+    margin: 0px auto;
+    margin-top: 250px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    align-items: center;
+    flex-direction: column;
+    background: var(--color-background-color-1);
+    background: var(--color-gradient);
+}
+.card_ask{
+    display: flex;
+}
+.img__star{
+    padding: 10px;
+    display: flex;
+    margin-top: 25px;
+    border-radius: 50%;
+    margin-left: 30px;
+    background: var(--color-background-color-1);
+    background: var(--color-gradient);
+}
+.title__card{
+    display: flex;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    letter-spacing: 3px;
+    color: var(--color-font-title);
+    font-family: Overpass-variant;
+}
+.text{
+    display: flex;
+    padding: 15px;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 20px;
+    color: var(--color-font-text);
+}
+.califi__numer{
+    gap: 15px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+}
+.uno,
+.dos,
+.tres,
+.cuatro,
+.cinco{
+    display: flex;
+    border: none;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-font-text);
+    background: var(--color-background-card);
+    transition: all 500ms;
+}
+
+.uno:hover,
+.dos:hover,
+.tres:hover,
+.cuatro:hover,
+.cinco:hover{
+    background: var(--color-active);
+    color: var(--color-font-title);
+}
+.califi.active{
+    background: var(--color-boton);
+    color: var(--color-font-title);
+}
+input{
+    display: flex;
+    width: 300px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 25px;
+    border-radius: 20px;
+    letter-spacing: 3px;
+    transition: all 300ms;
+    justify-content: center;
+    font-family: Overpass-variant;
+    color: var(--color-font-title);
+    background: var(--color-boton);
+}
+input:active{
+    background: var(--color-font-title);
+    color: var(--color-boton);
+} 
+/*SECCION DE GRACIAS*/
+.card_thank{
+    display: none;
+}
+.phone{
+    margin-top: 50px;
+    margin-left: 85px;
+}
+.text_card_1{
+    display: flex;
+    width: 250px;
+    height: 25px;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: 50px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-boton);
+    font-family: Overpass-variant;
+    background: var(--color-background-card);
+}
+.title__card__2{
+    display: flex;
+    font-size: 20px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    font-family: Overpass-variant;
+    color: var(--color-font-title);
+}
+.text__card__2{
+    display: flex;
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+    color: var(--color-font-text);
+    font-family: Overpass-variant;
+}
