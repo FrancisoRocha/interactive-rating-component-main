@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My solution URL](([https://www.frontendmentor.io/solutions/interactive-rating-component-2mbr-Nz9Ft))
-- Live Site URL: [My live site URL ]([https://your-live-site-url.com](https://francisorocha.github.io/interactive-rating-component-main/))
+- Solution URL: [My solution URL](https://francisorocha.github.io/interactive-rating-component-main/)
+- Live Site URL: [My live site URL ](https://www.frontendmentor.io/solutions/interactive-rating-component-2mbr-Nz9Ft)
 
 ## My process
 
